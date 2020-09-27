@@ -16,7 +16,7 @@ The purpose of this project is to perform further analysis on the Kickstarter da
 ---
 -To determine these outcomes, I utilized a pivot table filtered to only the Theater Category of campaigns.  While I examined data from every year on the dataset, the data was filtered to month of the year in order to make the information more usable for Louise.  The date data also had to be converted to a usable format, which can be seen in the Data Created Conversion column.  The pivot table was then turned into a PivotChart, which mapped the values of the Campaign Outcomes and their frequency against the Months of the year.  
 ---
-[!Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](https://github.com/davidfashbinder/kickstarter-analysis/blob/master/Theater_Outcomes_vs_Launch.png?raw=true)
 
 ### Analysis of Outcomes Based on Goals
 ---
@@ -24,7 +24,7 @@ The purpose of this project is to perform further analysis on the Kickstarter da
 ---
 -This data was harvested from the dataset using the COUNTIFS function along with multiple criteria.  The formula would check for successful, failed, or canceled from the Outcomes column, and use a fixed crtiera "Plays" from the subcategory column.  Since Louise is only concerned with the success of Plays, this was an appropriate filter.  The data would be filtered yet again by the goal range that we created for this measurement.  The ranges were created in 5000 increments, starting at 1000.  Anything less than 1000 was its own range, and anything more than 50000 was counted together.  Once the COUNTIFS function was successful in getting totals, I performed a simple calculation to display the Percentages of Successful, Failed, and Canceled Campaigns.  
 ---
-[!Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](https://github.com/davidfashbinder/kickstarter-analysis/blob/master/Outcomes_vs_Goals.png?raw=true)
 ### Challenges and Difficulties Encountered
 1. Outcomes Based on Launch Date was very straightforward since it used the PivotTable and PivotChart features of Excel.  Difficulty could arise if improper filters were used on the dataset sheet, or if the incorrect items were set for the rows, columns, and values fields in the Chart Wizard.  
 ---
